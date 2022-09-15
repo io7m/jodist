@@ -17,7 +17,7 @@
   <version>2.0.0-SNAPSHOT</version>
 
   <name>com.io7m.jodist</name>
-  <description>Use beautiful Java code to generate beautiful Java code.</description>
+  <description>Coffee-flavoured source code generation.</description>
   <url>https://github.com/io7m/jodist/</url>
 
   <properties>
@@ -56,6 +56,19 @@
   </organization>
 
   <dependencies>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.annotation.versioning</artifactId>
+      <version>1.1.2</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.annotation.bundle</artifactId>
+      <version>2.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+
     <dependency>
       <groupId>com.google.truth</groupId>
       <artifactId>truth</artifactId>
