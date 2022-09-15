@@ -1,7 +1,9 @@
 jodist
 ========
 
-`jodist` is a Java API for generating `.java` source files.
+`jodist` is a Java API for generating `.java` source files. It is a modern
+fork of [javapoet](https://github.com/square/javapoet) targeting whatever is
+the current LTS release of Java.
 
 Source file generation can be useful when doing things such as annotation processing or interacting
 with metadata files (e.g., database schemas, protocol formats). By generating code, you eliminate
