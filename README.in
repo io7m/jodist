@@ -1,19 +1,4 @@
 jodist
-===
-
-[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.jodist/com.io7m.jodist.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.jodist%22)
-[![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.io7m.jodist/com.io7m.jodist.svg?style=flat-square)](https://oss.sonatype.org/content/repositories/snapshots/com/io7m/jodist/)
-[![Codecov](https://img.shields.io/codecov/c/github/io7m/jodist.svg?style=flat-square)](https://codecov.io/gh/io7m/jodist)
-
-![jodist](./src/site/resources/jodist.jpg?raw=true)
-
-| JVM             | Platform | Status |
-|-----------------|----------|--------|
-| OpenJDK LTS     | Linux    | [![Build (OpenJDK LTS, Linux)](https://img.shields.io/github/workflow/status/io7m/jodist/main-openjdk_lts-linux)](https://github.com/io7m/jodist/actions?query=workflow%3Amain-openjdk_lts-linux) |
-| OpenJDK Current | Linux    | [![Build (OpenJDK Current, Linux)](https://img.shields.io/github/workflow/status/io7m/jodist/main-openjdk_current-linux)](https://github.com/io7m/jodist/actions?query=workflow%3Amain-openjdk_current-linux)
-| OpenJDK Current | Windows  | [![Build (OpenJDK Current, Windows)](https://img.shields.io/github/workflow/status/io7m/jodist/main-openjdk_current-windows)](https://github.com/io7m/jodist/actions?query=workflow%3Amain-openjdk_current-windows)
-
-jodist
 ========
 
 `jodist` is a Java API for generating `.java` source files.
@@ -956,4 +941,3 @@ JavaWriter continues to be available in [GitHub][javawriter] and [Maven Central]
  [javawriter_maven]: https://search.maven.org/#artifactdetails%7Ccom.squareup%7Cjavawriter%7C2.5.1%7Cjar
  [formatter]: https://developer.android.com/reference/java/util/Formatter.html
  [modifier]: https://docs.oracle.com/javase/8/docs/api/javax/lang/model/element/Modifier.html
-
