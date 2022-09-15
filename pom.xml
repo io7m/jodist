@@ -31,6 +31,13 @@
     <compile-testing.version>0.19</compile-testing.version>
   </properties>
 
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
   <scm>
     <url>https://github.com/io7m/jodist/</url>
     <connection>scm:git:git://github.com/io7m/jodist.git</connection>
@@ -38,17 +45,40 @@
     <tag>HEAD</tag>
   </scm>
 
+  <developers>
+    <developer>
+      <id>io7m</id>
+      <name>Mark Raynsford</name>
+      <email>code@io7m.com</email>
+      <url>https://www.io7m.com</url>
+    </developer>
+  </developers>
+
   <issueManagement>
     <system>GitHub Issues</system>
     <url>https://github.com/io7m/jodist/issues</url>
   </issueManagement>
 
-  <licenses>
-    <license>
-      <name>Apache 2.0</name>
-      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
+  <distributionManagement>
+    <site>
+      <id>io7m.com</id>
+      <name>io7m.com</name>
+      <url>https://www.io7m.com/software/jodist</url>
+    </site>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://www.github.com/jodist/actions</url>
+  </ciManagement>
 
   <organization>
     <name>Square, Inc.</name>
@@ -106,5 +136,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Generate a site -->
+      <plugin>
+        <groupId>com.io7m.minisite</groupId>
+        <artifactId>com.io7m.minisite.maven_plugin</artifactId>
+        <inherited>false</inherited>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
