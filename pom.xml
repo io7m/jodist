@@ -14,14 +14,14 @@
 
   <groupId>com.io7m.jodist</groupId>
   <artifactId>com.io7m.jodist</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>2.0.0</version>
 
   <name>com.io7m.jodist</name>
   <description>Coffee-flavoured source code generation.</description>
   <url>https://github.com/io7m/jodist/</url>
 
   <properties>
-    <io7m.api.previousVersion>2.0.0-SNAPSHOT</io7m.api.previousVersion>
+    <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
 
     <mdep.analyze.skip>true</mdep.analyze.skip>
     <checkstyle.skip>true</checkstyle.skip>
