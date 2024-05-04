@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.io7m.jodist</groupId>
+    <artifactId>com.io7m.jodist</artifactId>
+    <version>2.0.0</version>
+  </parent>
+  <artifactId>com.io7m.jodist.core</artifactId>
+
+  <packaging>jar</packaging>
+  <name>com.io7m.jodist.core</name>
+  <description>Coffee-flavoured source code generation (Core)</description>
+  <url>https://www.io7m.com/software/jodist</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.annotation.versioning</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.annotation.bundle</artifactId>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Determine test coverage -->
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
