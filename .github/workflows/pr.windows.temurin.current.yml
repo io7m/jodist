@@ -1,8 +1,8 @@
 
-name: main.windows.temurin.current
+name: pr.windows.temurin.current
 
 on:
-  push:
+  pull_request:
     branches: [ develop, feature/*, release/* ]
 
 jobs:
