@@ -4,7 +4,7 @@ jodist
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.jodist/com.io7m.jodist.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.jodist%22)
 [![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.jodist/com.io7m.jodist?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/jodist/)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m-com/jodist.svg?style=flat-square)](https://codecov.io/gh/io7m-com/jodist)
-![Java Version](https://img.shields.io/badge/21-java?label=java&color=007fff)
+![Java Version](https://img.shields.io/badge/21-java?label=java&color=e6c35c)
 
 ![com.io7m.jodist](./src/site/resources/jodist.jpg?raw=true)
 
