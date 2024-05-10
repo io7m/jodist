@@ -14,7 +14,7 @@
 
   <groupId>com.io7m.jodist</groupId>
   <artifactId>com.io7m.jodist</artifactId>
-  <version>2.0.0</version>
+  <version>2.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.jodist</name>
