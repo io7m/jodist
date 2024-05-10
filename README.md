@@ -2,19 +2,21 @@ jodist
 ===
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.jodist/com.io7m.jodist.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.jodist%22)
-[![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.io7m.jodist/com.io7m.jodist.svg?style=flat-square)](https://oss.sonatype.org/content/repositories/snapshots/com/io7m/jodist/)
-[![Codecov](https://img.shields.io/codecov/c/github/io7m/jodist.svg?style=flat-square)](https://codecov.io/gh/io7m/jodist)
+[![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.jodist/com.io7m.jodist?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/jodist/)
+[![Codecov](https://img.shields.io/codecov/c/github/io7m-com/jodist.svg?style=flat-square)](https://codecov.io/gh/io7m-com/jodist)
+![Java Version](https://img.shields.io/badge/21-java?label=java&color=e6c35c)
 
-![jodist](./src/site/resources/jodist.jpg?raw=true)
+![com.io7m.jodist](./src/site/resources/jodist.jpg?raw=true)
 
-| JVM             | Platform | Status |
-|-----------------|----------|--------|
-| OpenJDK LTS     | Linux    | [![Build (OpenJDK LTS, Linux)](https://img.shields.io/github/workflow/status/io7m/jodist/main-openjdk_lts-linux)](https://github.com/io7m/jodist/actions?query=workflow%3Amain-openjdk_lts-linux) |
-| OpenJDK Current | Linux    | [![Build (OpenJDK Current, Linux)](https://img.shields.io/github/workflow/status/io7m/jodist/main-openjdk_current-linux)](https://github.com/io7m/jodist/actions?query=workflow%3Amain-openjdk_current-linux)
-| OpenJDK Current | Windows  | [![Build (OpenJDK Current, Windows)](https://img.shields.io/github/workflow/status/io7m/jodist/main-openjdk_current-windows)](https://github.com/io7m/jodist/actions?query=workflow%3Amain-openjdk_current-windows)
+| JVM | Platform | Status |
+|-----|----------|--------|
+| OpenJDK (Temurin) Current | Linux | [![Build (OpenJDK (Temurin) Current, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/jodist/main.linux.temurin.current.yml)](https://www.github.com/io7m-com/jodist/actions?query=workflow%3Amain.linux.temurin.current)|
+| OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/jodist/main.linux.temurin.lts.yml)](https://www.github.com/io7m-com/jodist/actions?query=workflow%3Amain.linux.temurin.lts)|
+| OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/jodist/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/jodist/actions?query=workflow%3Amain.windows.temurin.current)|
+| OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/jodist/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/jodist/actions?query=workflow%3Amain.windows.temurin.lts)|
 
-jodist
-========
+
+## jodist
 
 `jodist` is a Java API for generating `.java` source files. It is a modern
 fork of [javapoet](https://github.com/square/javapoet) targeting whatever is
@@ -24,6 +26,11 @@ Source file generation can be useful when doing things such as annotation proces
 with metadata files (e.g., database schemas, protocol formats). By generating code, you eliminate
 the need to write boilerplate while also keeping a single source of truth for the metadata.
 
+## Status
+
+This is a barely-maintained fork of a codebase that is riddled with Google
+libraries and is generally of a very low quality. It is in maintenance mode
+and needs to be replaced with something sane. Do not use!
 
 ### Example
 

@@ -21,3 +21,6 @@ classes
 obj
 
 .DS_Store
+.jqwik-database
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
