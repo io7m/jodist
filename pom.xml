@@ -14,7 +14,7 @@
 
   <groupId>com.io7m.jodist</groupId>
   <artifactId>com.io7m.jodist</artifactId>
-  <version>2.0.1-SNAPSHOT</version>
+  <version>2.0.1</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.jodist</name>
@@ -29,14 +29,14 @@
   <properties>
     <!-- Configuration. -->
     <io7m.api.previousVersion>2.0.0</io7m.api.previousVersion>
-    <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
 
     <mdep.analyze.skip>true</mdep.analyze.skip>
     <checkstyle.skip>true</checkstyle.skip>
 
     <!-- Third-party dependencies. -->
     <junit.version>4.13.2</junit.version>
-    <truth.version>1.2.0</truth.version>
+    <truth.version>1.4.2</truth.version>
     <compile-testing.version>0.21.0</compile-testing.version>
   </properties>
 
@@ -130,7 +130,7 @@
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
-        <version>5.8.0</version>
+        <version>5.11.0</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jdt.core.compiler</groupId>
